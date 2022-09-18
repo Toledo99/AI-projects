@@ -11,9 +11,10 @@ The heuristic gives the highest value to a winning position and the lowest to a 
 
 <img align="center" alt="Coding" width="400" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/AB_pruning.svg/400px-AB_pruning.svg.png">
 
-## Soccer Calendar
+## Soccer Calendar Generator
 
-
+This program uses and evolutionary algorithm to find an equilibrated calendar that works. It is considered finished when a certain heuristic value is reached.
+It uses a merge and mutation function to change the population and create a new one. Each cycle the population duplicates and the half with the highest values remain.
 
 
 ## Polynomial operations
